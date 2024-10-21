@@ -88,12 +88,12 @@ echo -e "добро пожаловать в ад!" | lolcat
 echo -e "Выберите роль:" | lolcat
 
     echo "1. перезагрузить" | lolcat
-    echo "2. узнать больше"
+    echo "2. узнать больше" | lolcat
     echo "3. искать уязвимости " | lolcat
     echo "4. уязвимости SQL" | lolcat
     echo "5. выйти" | lolcat
 
-    read -p "введите свой вариант  (1/2/3/4): " option
+    read -p "введите свой вариант  (1/2/3/4): " | lolcat option
 
      case $option in
         1)
