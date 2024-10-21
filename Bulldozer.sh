@@ -108,8 +108,8 @@ echo -e "Выберите роль:" | lolcat
             display_art  # Volta à exibição da arte após a busca
             ;;
         4)
-            echo "Fechando o script..."
-            exit 0  # Fecha o script
+            check_sql_vulnerabilities
+            display_art
             ;;
         5)
             echo "Fechando o script..."
