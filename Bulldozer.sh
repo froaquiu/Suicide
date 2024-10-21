@@ -85,13 +85,13 @@ echo "===============================================" | lolcat
 # Mensagem adicional
 echo -e "добро пожаловать в ад!" | lolcat
 
-echo -e "Выберите роль:"
+echo -e "Выберите роль:" | lolcat
 
-    echo "1. перезагрузить"
+    echo "1. перезагрузить" | lolcat
     echo "2. узнать больше"
-    echo "3. искать уязвимости "
-    echo "4. уязвимости SQL"
-    echo "5. выйти"
+    echo "3. искать уязвимости " | lolcat
+    echo "4. уязвимости SQL" | lolcat
+    echo "5. выйти" | lolcat
 
     read -p "введите свой вариант  (1/2/3/4): " option
 
