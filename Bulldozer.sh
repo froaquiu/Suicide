@@ -93,6 +93,7 @@ echo -e "Выберите роль:" | lolcat
     echo "4. уязвимости SQL" | lolcat
     echo "5. выйти" | lolcat
 
+    while true; do
     read -p "введите свой вариант  (1/2/3/4): " | lolcat option
 
      case $option in
@@ -120,4 +121,3 @@ echo -e "Выберите роль:" | lolcat
             ;;
     esac
 done
-
